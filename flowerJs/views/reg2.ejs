@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../public/css_register/reg.css">
+    
+
+    <title>Sign UP</title>
+</head>
+<body>
+    <form action="/register" method="post">
+    <div id="login-box" >
+        <div class="left">
+          <h1>Sign up</h1>
+          <!-- <div> -->
+          <input type="text" name="username" placeholder="Username" />
+          <span style="color:red"><%= err1 %></span>
+        <!-- </div>
+          <div> -->
+          <input type="text" name="email" placeholder="E-mail" />
+          <span style="color:red"><%= err2 %></span>
+        <!-- </div>
+          <div> -->
+          <input type="password" name="password" placeholder="Password" />
+          <span style="color:red"><%= err3 %></span>
+        <!-- </div> -->
+          
+          
+          <input type="submit" name="signup_submit" value="Sign me up" />
+        </div>
+    </form>
+        
+        <div class="right" style="background-image: url(../public/images/reg1.jpg);">
+          <span class="loginwith">Sign in with<br />social network</span>
+          
+          <button class="social-signin facebook"  >Log in with facebook</button>
+          <button class="social-signin twitter" >Log in with Twitter</button>
+          <button class="social-signin google" >Log in with Google+</button>
+        </div>
+        <div class="or">OR</div>
+      </div>
+    
+</body>
+</html>

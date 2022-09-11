@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="../public/css/style.css">
+        <link rel="stylesheet" type="text/css" href="../public/css/contact.css">
+<script src="../script/script.js"></script>
+
+    </head>
+    <body>
+        <div id="head"></div>
+<div id="head1"></div>
+<div id="head2">
+<h1>Delivering Smiles To Your Loved Ones Across World</h1>
+<p>Encapsulated with the best of colors and fragrance, these can send a wish of well being, uplift spirits, and can say the unspoken profoundly. So, if you're seeking a token for special moments that can't be put into words, well, then order these flowers from the evergreen array available just for you.
+</p>
+</div>
+<ul>
+    <li><a href="/home">home</a></li>
+    <li><a href="/product">product</a></li>
+    <li><a href="/contact"  style="background-color:white;color:darkcyan;">contact</a></li>
+    <li><a href="/about">about</a></li>
+    <li><a href="/gallery">gallery</a></li>
+</ul>
+
+<div id="detail">
+<p><b>Free Toll :</b> +91 1800-567-345
+    <br><br>
+<b>Call Us At :</b>
+<br><br>
+<b>India :</b> +91 986-678-4567<br><br>
+<b>US :</b> +1 839-456-1234<br><br>
+<b>Australia :</b> +61 567-56-1234<br><br>
+<b>Whatsapp Us At:</b> +91 987-654-2345<br><br>
+
+<b>Email Us At:</b> point.flower@gmail.com<br>
+<br>
+
+For Any Query ? Contact Us By Sign In With Given Form
+</p>
+
+
+</div>
+<div id="form">
+        
+        <fieldset>
+        <legend>Sign Up</legend>
+        <form action="index.html" method="get" onsubmit="return validate()">
+        <table cellspacing="20px">
+        <tr>
+        <td><label id="lab">First Name <span>*</span></label></td>
+        <td><input type="text" id="t1" name="t1" value="" placeholder="First Name" onChange="validateField(this)" autofocus/> <br><span style="color:red" id="text1"></span>
+        </td>
+        </tr>
+        
+        <tr>
+        <td><label id="lab">Last Name<span>*</span></label></td>
+        <td><input type="text" id="t2" name="t2"  placeholder="Last Name" onChange="validateField(this)" ><br><span style="color:red" id="text2"></span>
+        </td>
+        </tr>
+        
+        <tr>
+        <td><label id="lab">Email<span>*</span></label></td>
+        <td><input type="text" id="t3"   name="t3"  placeholder="abc@email.com" onChange="ValidateEmail(this)"><br><span style="color:red" id="text3"></span>
+        </td>
+        </tr>
+        
+        <tr>
+        <td><label id="lab">Paswword<span>*</span></label></td>
+        <td><input type="password" id="p1"       name="p1" onChange="CheckPassword(this)" placeholder="Password"><br><span style="color:red" id="text4"></span>
+        </td>
+        </tr>
+        
+        <tr>
+        <td><label id="lab">Gender<span>*</span></label></td>
+        <td>
+        <input type="radio" id="gen" name="gen" onChange="check_Radio(this)"  value="male"><span id="lab">Male</span>
+        <input type="radio" id="gen" name ="gen" onChange="check_Radio(this)" value="female"><span id="lab">Female</span>
+        <input type="radio" id="gen" name="gen"  onChange="check_Radio(this)" value="other"><span id="lab">Others</span><br><span style="color:red" id="text5"></span>
+        </td>
+        </tr>
+        <tr>
+        <td><label id="lab">Select Any Language<span>*</span></label></td>
+        <td><select id="lang" onChange="checkList(this)">
+        <option value="--Language--">--Language--</option>
+        <option value="Hindi">Hindi</option>
+        <option value="English">English</option>
+        <option value="French">French</option>
+        <option value="Spanish">Spanish</option></select><br>
+        <span style="color:red" id="text7"></span>
+        </td>
+        <tr>
+        <td><label id="lab">Any Comment?<span>*</span></label></td>
+        <td>
+        <textarea cols="46" rows="5" id="text_data" onkeydown="check_comment(this)" style="border-radius:5px; box-shadow:2px 2px 2px #DEDEDE,-2px -2px 2px #DEDEDE;"></textarea><br>
+        <span id="t"></span>
+        </td>
+        </tr>
+        <tr><td align="center"colspan="2">
+        <button id="btn1">Submit</button></td>
+        </tr>
+        </table>
+        </form>
+        </fieldset>
+
+        
+</div>
+<div style="height:50px; position:absolute; top:950px;width:99%;"></div>
+
+<div id='foot'>&copy; 2022 User Detail</div>
+</body>
+</html>
+

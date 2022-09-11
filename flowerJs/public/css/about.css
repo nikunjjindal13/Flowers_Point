@@ -1,0 +1,48 @@
+
+    @media screen and (max-width:700px) {
+        #about
+        {
+    
+            margin-top:400px;
+        }
+    #foot
+    {
+        margin-top:1000px;
+    }    
+    }
+    #about
+    {
+        position:absolute; 
+        top:400px;
+         width:98%;
+    }
+    hr{
+
+
+    width:100%;
+     border-top-style:dashed;
+      border-top-color:darkcyan;
+       border-top-width:2px;
+    }
+    #about h1{
+        width:100%;
+        text-align:center;
+    }
+    table{
+        width:40%;
+        border-width:1px;
+        border-style:solid;
+        text-align:center;
+    }
+tr,td,th{
+    border-width:1px;
+        border-style:solid;
+}
+    #down
+    {
+        height:50px;
+         position:absolute; 
+         top:850px;
+          width:99%;
+    }
+    

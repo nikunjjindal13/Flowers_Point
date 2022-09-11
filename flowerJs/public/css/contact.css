@@ -1,0 +1,73 @@
+#lab
+        {
+        font-size:21px;
+        color:black;
+        }
+        #t1,#t2,#t3,#p1,#lang,#text_data
+        {
+        height:35px;
+         width:350px; 
+        
+         box-shadow:2px 2px 2px #DEDEDE,-2px -2px 2px #DEDEDE;
+         }
+         #form
+         {
+             position:absolute;
+             top:430px;
+            left:43%;
+            width:49%;
+         }
+         fieldset
+         {
+             width:49%;
+         }
+         #detail
+         {
+            position:absolute;
+             top:500px;
+             width:42%;
+             background-color:darkcyan;
+         }
+         @media screen and (max-width:800px) {
+             #detail
+             {
+                 width:99%;
+                 margin-top:400px;
+             }
+             fieldset
+         {
+             width:99%;
+         }
+             #form
+             {
+                 width:100%;
+                 margin-top:850px;
+                 left:0px;
+             }
+          #foot
+          {
+              top:1800px;
+          }   
+         }
+fieldset{
+    width:800px;
+         padding-left:40px
+        }
+        legend
+        {
+           font-size:25px;
+            color:red;
+        }
+        span{
+           color:red;
+        }
+        
+
+         #btn1
+         {
+            height:40px;
+             width:500px;
+              background-color:white; 
+              color:red;
+               font-size:20px;
+         }
